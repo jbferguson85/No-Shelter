@@ -1,0 +1,107 @@
+/* 
+    Created on : Jan 28, 2017, 11:04:24 AM
+    Author     : Lappy Tappy
+*/
+@font-face {
+	font-family: rage;
+	src: url("../fonts/TravelingTypewriter.otf") format("otf"),
+	     url("../fonts/TravelingTypewriter.ttf") format("truetype");
+}
+
+* {
+    font-family: rage;
+    text-decoration: none;
+}
+
+html, body {
+    background-color: black;
+}
+
+a, a:hover, a:visited, a:link {
+    color: white;
+    text-decoration: inherit;
+} 
+
+p, li, h4 {
+    color: white;
+}
+
+.modal-content {
+    background-color: #101010;
+}
+
+.navbar-default {
+    background-color:black;
+    background-image: none;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background: url("../pics/NoShelter.jpg") center center;
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    background-color:black;
+    background-repeat: no-repeat;
+}
+
+
+
+.btn {
+    border-radius: 2px;
+    background-color: white;
+    margin: 5px;
+    color: black;
+}
+
+navbar, .navbar-nav {
+    float:none;
+    margin: 0 auto;
+    display: inline-block;
+    table-layout: fixed;
+    background-color: black;
+    color: white;
+}
+
+#navbuttons {
+    text-align: center;
+    float: right;
+}
+
+
+
+
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+    height: 400px;
+    display: block;
+    overflow: hidden;
+}
+
+.section-header {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.col-sm-8 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.col-md-6 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
